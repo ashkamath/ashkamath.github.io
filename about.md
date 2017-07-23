@@ -47,10 +47,14 @@ I was born and partly brought up in Goa, India, a popular tourist destination fo
 {% include image.html url="/images/bb.jpg" caption="Me with my basketball team" width=500 align="left" %} 
 <p>I also love to paint and here are a few of my favourites. </p>
 
-{% include image.html url="/images/paint.jpg" caption="Painting" width=250 align="left" %}
-{% include image.html url="/images/IMG_4579.jpg" caption="Another one" width=250 align="left" %}
+<img style="float: left;" src="/images/paint.jpg">
+<img style="float: left;" src="/images/IMG_4579.jpg">
+
+
+
 
 <p>Can't resist but put up a few pictures that I took at UMass Amherst! :) </p>
+
 
 {% include image.html url="/images/umass1.jpg" caption="UMass" width=250 align="left" %}
 {% include image.html url="/images/umass2.jpg" caption="Library pond" width=250 align="left" %}
