@@ -23,7 +23,7 @@ The summer after my sophomore year, I interned under <a href="http://www.aero.ii
 
 In my junior year, a friend and me won an award for a face recognition system that we built for a university wide competition and that ignited my interest in the field of machine learning. I followed that with another internship in the same lab, and worked on extracting rooftop areas from satellite images so as to calculate the solar power potential from the region. This was still done using traditional computer vision approaches and thinking back, would have been so much easier with the common deep learning tools at our disposal now. 
 
-{% include image.html url="/images/iisc.jpg" caption="Aerospace lab, IISc Bangalore" width=300 align="left" %}
+{% include image.html url="/images/iisc.jpeg" caption="Aerospace lab, IISc Bangalore" width=300 align="left" %}
 
 I decided at that point, to pursue a career in Computer Science and for my undergraduate thesis, tried my hand with deep learning for the first time as I worked on a task of anomaly detection in crowded scenes. My advisor <a href="https://manipal.edu/mit/department-faculty/faculty-list/sanjay-singh.html">Sanjay Singh</a> allayed my fears of switching to a different field for my Master's and I was happy to be accepted at UMass Amherst. 
 
@@ -46,3 +46,10 @@ I was born and partly brought up in Goa, India, a popular tourist destination fo
 
 I love to play basketball and have been a part of my school and univeristy teams all along till the end of my Bachelors. Sadly however, grad school leaves no time to pursue this now and it is now just for leisure and stress busting! 
 {% include image.html url="/images/bb.jpg" caption="Me with my basketball team" width=300 align="center" %}
+
+Can't resist but put up a few pictures that I took at UMass Amherst! :)
+
+{% include image.html url="/images/umass1.jpg" caption="Amherst" width=300 align="center" %}
+{% include image.html url="/images/umass2.jpg" caption="Amherst" width=300 align="center" %}
+{% include image.html url="/images/umass3.jpg" caption="Amherst" width=300 align="center" %}
+
