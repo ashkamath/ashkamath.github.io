@@ -4,6 +4,15 @@
 
 - title: "Research"
   href: "/research/"
+  
+#- title: "Resources"
+#  href: "/resources/"
+#  subcategories:
+#    - subtitle: "Item 1"
+#      subhref: "/resources/item-1/"
+#    - subtitle: "Item 2"
+#      subhref: "/resources/item-2/"
+      
 
 #- title: "Research Notebook"
   #href: "/notebook"
