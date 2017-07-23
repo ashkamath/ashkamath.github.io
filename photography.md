@@ -1,3 +1,9 @@
+---
+layout: page
+title: Photography
+permalink: /photography/
+---
+
 
 <p>Can't resist but put up a few pictures that I took at UMass Amherst! :) </p>
 
