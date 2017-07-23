@@ -44,7 +44,7 @@ I was born and partly brought up in Goa, India, a popular tourist destination fo
 ### Hobbies 
 
 I love to play basketball and have been a part of my school and univeristy teams all along till the end of my Bachelors. Sadly however, grad school leaves no time to pursue this now and it is now just for leisure and stress busting!  
-{% include image.html url="/images/bb.jpg" caption="Me with my basketball team" width=500 align="left" %} 
+{% include image.html url="/images/bb.jpg" caption="Me with my basketball team" width=500 align="right" %} 
 
 I also love to paint and here are a few of my favourites.  
 
