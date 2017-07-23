@@ -48,12 +48,12 @@ I was born and partly brought up in Goa, India, a popular tourist destination fo
 
 I love to play basketball and have been a part of my school and univeristy teams all along till the end of my Bachelors. Sadly however, grad school leaves no time to pursue this now and it is now just for leisure and stress busting! 
 {% include image.html url="/images/bb.jpg" caption="Me with my basketball team" width=500 align="left" %} 
-I also love to paint and here are a few of my favourites.
+I also love to paint and here are a few of my favourites. //
 
 {% include image.html url="/images/paint.jpg" caption="Painting" width=250 align="left" %}
 {% include image.html url="/images/IMG_4579.jpg" caption="Another one" width=250 align="left" %}
 
-Can't resist but put up a few pictures that I took at UMass Amherst! :)
+Can't resist but put up a few pictures that I took at UMass Amherst! :) //
 
 {% include image.html url="/images/umass1.jpg" caption="UMass" width=250 align="left" %}
 {% include image.html url="/images/umass2.jpg" caption="Library pond" width=250 align="left" %}
