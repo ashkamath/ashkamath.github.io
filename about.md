@@ -56,3 +56,7 @@ I was born and partly brought up in Goa, India, a popular tourist destination fo
 {% include image.html url="/images/umass2.jpg" caption="Library pond" width=250 align="left" %}
 {% include image.html url="/images/umass3.jpg" caption="CICS building" width=250 align="left" %}
 
+### Giving back
+While at UMass, my advisor from my undergrad asked me to TA for a special audit course on deep learning that he was teaching for the first time this Spring. I happily obliged and was glad to be able to share my experience with my juniors.
+
+I was an active member of the <a href="http://vso.manipal.edu/">Volunteer Services Organisation</a> in Manipal, India and routinely took part in weekly events during which I visited the paediatric ward of the Kasturba Medical Hospital where we organised games and entertained the kids. I also helped conduct events at the home for specially challenged where we would help and teach them to paint. 
