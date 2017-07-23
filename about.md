@@ -10,7 +10,15 @@ Currently, I am working at Oracle Labs, Burlington in the Machine Learning Resea
 
 ## Professional Timeline
 
-My undergraduate degree was in Electronics and Communication at Manipal Institute of Technology, India. Here I explored the field of electronics, taking part in competitions and projects, gathering hand-on experience. The summer after my sophomore year, I interned at the Indian Institute of Science, in the Aerospace lab where I worked on building a gesture controlled quadrotor system. This introduced me to several researchers and began my interest in the resarch life. 
+{% include image.html url="/images/mit.jpg" caption="Manipal Institute ofTechnology" width=300 align="right" %}
+My undergraduate degree was in Electronics and Communication at Manipal Institute of Technology, India. Here I explored the field of electronics, taking part in competitions and projects, gathering hand-on experience. 
+
+{% include image.html url="/images/4.jpg" caption="Workshops" width=300 align="left" %}
+{% include image.html url="/images/3.jpg" caption="Simple antennas" width=300 align="left" %}
+
+The summer after my sophomore year, I interned under <a href="http://www.aero.iisc.ernet.in/faculty/s-n-omkar"> Dr. S.N. Omkar </a> at the Indian Institute of Science, in the Aerospace lab where I worked on building a gesture controlled quadrotor system. This introduced me to several researchers and began my interest in the resarch life. 
+
+{% include image.html url="/images/iisc.jpg" caption="Aerospace lab, IISc Bangalore" width=300 align="right" %}
 
 In my junior year, a friend and me won an award for a face recognition system that we built for a university wide competition and that ignited my interest in the field of machine learning. I followed that with another internship in the same lab, and worked on extracting rooftop areas from satellite images so as to calculate the solar power potential from the region. This was still done using traditional computer vision approaches and thinking back, would have been so much easier with the common deep learning tools at our disposal now. 
 
@@ -24,9 +32,14 @@ I really enjoyed the Artificial Intelligence class I took under Prof. Shlomo Zil
 
 
 
-{% include image.html url="/images/4250.jpg" caption="Me this summer" width=300 align="right" %}
+
 
 ### A little about my past
 
 I was born and partly brought up in Goa, India, a popular tourist destination for many visitors from across the world. Most of my schooling was done in Dubai, UAE where I had the good fortune of meeting people from various places and developed a strong sense of cultural inclusion. I have a passion for languages and like many other 20 somethings, I love to travel and try to explore at any chance that I can get. 
+{% include image.html url="/images/goa.jpg" caption="Goa" width=300 align="right" %}
+{% include image.html url="/images/dubai.jpg" caption="Dubai" width=300 align="right" %}
 
+
+I love to play basketball and have been a part of my school and univeristy teams all along till the end of my Bachelors. Sadly however, grad school leaves no time to pursue this now and it is now just for leisure and stress busting! 
+{% include image.html url="/images/bb.jpg" caption="Me with my basketball team" width=300 align="right" %}
