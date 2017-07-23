@@ -40,9 +40,9 @@ I really enjoyed the Artificial Intelligence class I took under Prof. Shlomo Zil
 ### A little about my past
 
 I was born and partly brought up in Goa, India, a popular tourist destination for many visitors from across the world. Most of my schooling was done in Dubai, UAE where I had the good fortune of meeting people from various places and developed a strong sense of cultural inclusion. I have a passion for languages and like many other 20 somethings, I love to travel and try to explore at any chance that I can get. 
-{% include image.html url="/images/goa.jpeg" caption="Goa" width=300 align="centre" %}
-{% include image.html url="/images/dubai.jpeg" caption="Dubai" width=300 align="centre" %}
+{% include image.html url="/images/goa.jpeg" caption="Goa" width=300 align="left" %}
+{% include image.html url="/images/dubai.jpeg" caption="Dubai" width=300 align="right" %}
 
 
 I love to play basketball and have been a part of my school and univeristy teams all along till the end of my Bachelors. Sadly however, grad school leaves no time to pursue this now and it is now just for leisure and stress busting! 
-{% include image.html url="/images/bb.jpg" caption="Me with my basketball team" width=300 align="centre" %}
+{% include image.html url="/images/bb.jpg" caption="Me with my basketball team" width=300 align="center" %}
