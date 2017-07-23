@@ -52,16 +52,15 @@ I also love to paint and here are a few of my favourites.
 {% include image.html url="/images/IMG_4579.jpg" caption="Another one" width=250 align="right" %}
 
 
+### Giving back
+While at UMass, my advisor from my undergrad asked me to TA for a special audit course on deep learning that he was teaching for the first time this Spring. I happily obliged and was glad to be able to share my experience with my juniors.
+
+I was an active member of the <a href="http://vso.manipal.edu/">Volunteer Services Organisation</a> in Manipal, India and routinely took part in weekly events during which I visited the paediatric ward of the Kasturba Medical Hospital where we organised games and entertained the kids. I also helped conduct events at the home for specially challenged where we would help and teach them to paint. 
+
+
 <p>Can't resist but put up a few pictures that I took at UMass Amherst! :) </p>
 
 
 {% include image.html url="/images/umass1.jpg" caption="UMass" width=250 align="right" %}
 {% include image.html url="/images/umass2.jpg" caption="Library pond" width=250 align="right" %}
 {% include image.html url="/images/umass3.jpg" caption="CICS building" width=250 align="right" %}
-
-
-
-### Giving back
-While at UMass, my advisor from my undergrad asked me to TA for a special audit course on deep learning that he was teaching for the first time this Spring. I happily obliged and was glad to be able to share my experience with my juniors.
-
-I was an active member of the <a href="http://vso.manipal.edu/">Volunteer Services Organisation</a> in Manipal, India and routinely took part in weekly events during which I visited the paediatric ward of the Kasturba Medical Hospital where we organised games and entertained the kids. I also helped conduct events at the home for specially challenged where we would help and teach them to paint. 
