@@ -5,4 +5,4 @@ permalink: /photography/
 ---
 
 
-Hi
+## Amherst and beyond
