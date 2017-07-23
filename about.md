@@ -47,8 +47,8 @@ I was born and partly brought up in Goa, India, a popular tourist destination fo
 {% include image.html url="/images/bb.jpg" caption="Me with my basketball team" width=500 align="left" %} 
 <p>I also love to paint and here are a few of my favourites. </p>
 
-<img style="float: left;" src="/images/paint.jpg">
-<img style="float: left;" src="/images/IMG_4579.jpg">
+<img style="float: left;" width=300 src="/images/paint.jpg">
+<img style="float: left;" width=300 src="/images/IMG_4579.jpg">
 
 
 
