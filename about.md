@@ -44,16 +44,16 @@ I really enjoyed the Artificial Intelligence class I took under Prof. Shlomo Zil
 I was born and partly brought up in Goa, India, a popular tourist destination for many visitors from across the world. Most of my schooling was done in Dubai, UAE where I had the good fortune of meeting people from various places and developed a strong sense of cultural inclusion. I have a passion for languages and like many other 20 somethings, I love to travel and try to explore at any chance that I can get. 
 
 
-## Hobbies 
+### Hobbies 
 
-I love to play basketball and have been a part of my school and univeristy teams all along till the end of my Bachelors. Sadly however, grad school leaves no time to pursue this now and it is now just for leisure and stress busting! 
+<p>I love to play basketball and have been a part of my school and univeristy teams all along till the end of my Bachelors. Sadly however, grad school leaves no time to pursue this now and it is now just for leisure and stress busting! </p>
 {% include image.html url="/images/bb.jpg" caption="Me with my basketball team" width=500 align="left" %} 
-I also love to paint and here are a few of my favourites. //
+<p>I also love to paint and here are a few of my favourites. </p>
 
 {% include image.html url="/images/paint.jpg" caption="Painting" width=250 align="left" %}
 {% include image.html url="/images/IMG_4579.jpg" caption="Another one" width=250 align="left" %}
 
-Can't resist but put up a few pictures that I took at UMass Amherst! :) //
+<p>Can't resist but put up a few pictures that I took at UMass Amherst! :) </p>
 
 {% include image.html url="/images/umass1.jpg" caption="UMass" width=250 align="left" %}
 {% include image.html url="/images/umass2.jpg" caption="Library pond" width=250 align="left" %}
