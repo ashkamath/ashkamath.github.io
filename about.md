@@ -64,3 +64,10 @@ I was an active member of the <a href="http://vso.manipal.edu/">Volunteer Servic
 {% include image.html url="/images/umass1.jpg" caption="UMass" width=250 align="left" %}
 {% include image.html url="/images/umass2.jpg" caption="Library pond" width=250 align="left" %}
 {% include image.html url="/images/umass3.jpg" caption="CICS building" width=250 align="left" %}
+{% include image.html url="/images/cics1.jpg" caption="Amherst" width=250 align="left" %}
+{% include image.html url="/images/cics2.jpg" caption="Amherst" width=250 align="left" %}
+{% include image.html url="/images/cics3.jpg" caption="Amherst" width=250 align="left" %}
+{% include image.html url="/images/cics4.jpg" caption="Amherst" width=250 align="left" %}
+{% include image.html url="/images/cics5.jpg" caption="Amherst" width=250 align="left" %}
+{% include image.html url="/images/cics6.jpg" caption="Amherst" width=250 align="left" %}
+
