@@ -51,7 +51,7 @@ I love to play basketball and have been a part of my school and univeristy teams
 I also love to paint and here are a few of my favourites.
 
 {% include image.html url="/images/paint.jpg" caption="Painting" width=250 align="left" %}
-{% include image.html url="/images/IMG_4579.jpg" caption="Another one" width=250 align="right" %}
+{% include image.html url="/images/IMG_4579.jpg" caption="Another one" width=250 align="left" %}
 
 Can't resist but put up a few pictures that I took at UMass Amherst! :)
 
