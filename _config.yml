@@ -2,8 +2,7 @@
 title: Aishwarya Kamath
 email: akamath@cs.umass.edu
 description: > # this means to ignore newlines until "baseurl:"
-  "The harder you work, the luckier you get"
-  - Gary Player
+  "The harder you work, the luckier you get"- Gary Player
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ashkamath.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
