@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: Research
+permalink: /research/
 ---
 
 I aim to make a page each for my projects, explaining the aim, intuition behind the approach and the results in a way that can be understood by someone reading the material for the first time. 
