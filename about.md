@@ -54,7 +54,7 @@ I love to play basketball and have been a part of my school and univeristy teams
 
 I also love to paint and here are a few of my favourites.  
 
-{% include image.html url="/images/paint.jpg" caption="Painting" width=3500 align="left" %}
+{% include image.html url="/images/paint.jpg" caption="Painting" width=350 align="left" %}
 {% include image.html url="/images/IMG_4579.jpg" caption="Another one" width=350 align="left" %}
 
 
