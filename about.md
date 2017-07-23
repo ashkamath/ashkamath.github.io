@@ -55,9 +55,9 @@ I also love to paint and here are a few of my favourites.
 <p>Can't resist but put up a few pictures that I took at UMass Amherst! :) </p>
 
 
-{% include image.html url="/images/umass1.jpg" caption="UMass" width=250 align="left" %}
-{% include image.html url="/images/umass2.jpg" caption="Library pond" width=250 align="left" %}
-{% include image.html url="/images/umass3.jpg" caption="CICS building" width=250 align="left" %}
+{% include image.html url="/images/umass1.jpg" caption="UMass" width=250 align="right" %}
+{% include image.html url="/images/umass2.jpg" caption="Library pond" width=250 align="right" %}
+{% include image.html url="/images/umass3.jpg" caption="CICS building" width=250 align="right" %}
 
 
 
