@@ -11,13 +11,5 @@
 - title: "CV"
   href: "/cv/"
 
-#- title: "Resources"
-#  href: "/resources/"
-#  subcategories:
-#    - subtitle: "Item 1"
-#      subhref: "/resources/item-1/"
-#    - subtitle: "Item 2"
-#      subhref: "/resources/item-2/"
-      
 - title: "Blog"
   href: "/blog/"
