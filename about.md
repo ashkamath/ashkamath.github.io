@@ -52,6 +52,6 @@ I love to play basketball and have been a part of my school and univeristy teams
 Can't resist but put up a few pictures that I took at UMass Amherst! :)
 
 {% include image.html url="/images/umass1.jpg" caption="Amherst" width=250 align="left" %}
-{% include image.html url="/images/umass2.jpg" caption="Amherst" width=250 align="center" %}
-{% include image.html url="/images/umass3.jpg" caption="Amherst" width=250 align="right" %}
+{% include image.html url="/images/umass2.jpg" caption="Amherst" width=250 align="left" %}
+{% include image.html url="/images/umass3.jpg" caption="CICS building" width=250 align="right" %}
 
