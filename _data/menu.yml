@@ -7,6 +7,17 @@
 
 - title: "Research"
   href: "/research/"
+  subcategories:
+    - subtitle: "Domain adaptation for sentiment analysis"
+      subhref: "/research/Dom_ad/"
+    - subtitle: "Visual Question Answering"
+      subhref: "/research/item-2/"
+    - subtitle: "Structured Prediction"
+      subhref: "/research/SPEN/"
+    - subtitle: "AI stuff"
+      subhref: "/research/AI/"
+    - subtitle: "Anomaly Detection"
+      subhref: "/research/anomaly/"
 
 #- title: "Resources"
 #  href: "/resources/"
