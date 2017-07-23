@@ -15,7 +15,7 @@ My undergraduate degree was in Electronics and Communication at Manipal Institut
 
 
 
-The summer after my sophomore year, I interned under <a href="http://www.aero.iisc.ernet.in/faculty/s-n-omkar"> Dr. S.N. Omkar </a> at the Indian Institute of Science, Bangalore in the Aerospace lab where I worked on building a gesture controlled quadrotor system. This introduced me to several researchers and began my interest in the resarch life. 
+The summer after my sophomore year, I interned under <a href="http://www.aero.iisc.ernet.in/faculty/s-n-omkar"> Dr. S.N. Omkar </a> at the Indian Institute of Science, Bangalore in the Aerospace lab where I worked on building a gesture controlled quadrotor system. This introduced me to several researchers and began my interest in the research life. 
 {% include image.html url="/images/4.jpg" caption="Workshops" width=300 align="right" %}
 {% include image.html url="/images/3.jpg" caption="Simple antennas" width=300 align="right" %}
 
