@@ -2,9 +2,12 @@
   href: "/about/"
 
 
-- title: "Research"
-  href: "/research/"
-  
+#- title: "Research"
+#  href: "/research/"
+
+- title: "Projects"
+  href: "/projects/"
+
 #- title: "Resources"
 #  href: "/resources/"
 #  subcategories:
