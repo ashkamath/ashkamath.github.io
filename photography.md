@@ -7,5 +7,4 @@ permalink: /photography/
 
 ## Amherst and beyond
 
-
-Hello
+![UMass](/images/umass1.jpg){:class="img-responsive"}
