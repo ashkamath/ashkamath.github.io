@@ -41,6 +41,12 @@ I really enjoyed the Artificial Intelligence class I took under Prof. Shlomo Zil
 I was born and partly brought up in Goa, India, a popular tourist destination for many visitors from across the world. Most of my schooling was done in Dubai, UAE where I had the good fortune of meeting people from various places and developed a strong sense of cultural inclusion. I have a passion for languages and like many other 20 somethings, I love to travel and try to explore at any chance that I can get. 
 
 
+
+### Giving back
+While at UMass, my advisor from my undergrad asked me to TA for a special audit course on deep learning that he was teaching for the first time this Spring. I happily obliged and was glad to be able to share my experience with my juniors.
+
+I was an active member of the <a href="http://vso.manipal.edu/">Volunteer Services Organisation</a> in Manipal, India and routinely took part in weekly events during which I visited the paediatric ward of the Kasturba Medical Hospital where we organised games and entertained the kids. I also helped conduct events at the home for specially challenged where we would help and teach them to paint. 
+
 ### Hobbies 
 
 I love to play basketball and have been a part of my school and univeristy teams all along till the end of my Bachelors. Sadly however, grad school leaves no time to pursue this now and it is now just for leisure and stress busting!  
@@ -48,13 +54,7 @@ I love to play basketball and have been a part of my school and univeristy teams
 
 I also love to paint and here are a few of my favourites.  
 
-{% include image.html url="/images/paint.jpg" caption="Painting" width=250 align="right" %}
-{% include image.html url="/images/IMG_4579.jpg" caption="Another one" width=250 align="right" %}
-
-
-### Giving back
-While at UMass, my advisor from my undergrad asked me to TA for a special audit course on deep learning that he was teaching for the first time this Spring. I happily obliged and was glad to be able to share my experience with my juniors.
-
-I was an active member of the <a href="http://vso.manipal.edu/">Volunteer Services Organisation</a> in Manipal, India and routinely took part in weekly events during which I visited the paediatric ward of the Kasturba Medical Hospital where we organised games and entertained the kids. I also helped conduct events at the home for specially challenged where we would help and teach them to paint. 
+{% include image.html url="/images/paint.jpg" caption="Painting" width=200 align="right" %}
+{% include image.html url="/images/IMG_4579.jpg" caption="Another one" width=200 align="right" %}
 
 
