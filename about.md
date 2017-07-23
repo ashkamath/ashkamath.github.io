@@ -6,16 +6,16 @@ permalink: /about/
 
 ### Currently ...
 
-Currently, I am working at Oracle Labs, Burlington in the Machine Learning Research group, under <a href="https://labs.oracle.com/pls/apex/f?p=labs:bio:0:2069"> Michael Wick </a> and <a href="https://labs.oracle.com/pls/apex/f?p=labs:bio:0:304"> Jean-Baptiste Tristan </a> on a digital cervicography project. I am a strong believer in using the knowlegde and tools that we have to adress real life issues and working on this project definitely gives me a lot of satisfaction in that respect!
+Currently, I am working at Oracle Labs, Burlington in the Machine Learning Research group, under <a href="https://labs.oracle.com/pls/apex/f?p=labs:bio:0:2069"> Michael Wick </a> and <a href="https://labs.oracle.com/pls/apex/f?p=labs:bio:0:304"> Jean-Baptiste Tristan </a> on a digital cervicography project. I am a strong believer in using the knowlegde and tools that we have to address real life issues and working on this project definitely gives me a lot of satisfaction in that respect!
 
 ## Professional Timeline
 
 {% include image.html url="/images/mit.jpg" caption="Manipal Institute ofTechnology" width=300 align="right" %}
-My undergraduate degree was in Electronics and Communication at Manipal Institute of Technology, India. Here I explored the field of electronics, taking part in competitions and projects, gathering hand-on experience. 
+My undergraduate degree was in Electronics and Communication at Manipal Institute of Technology, India. Here I explored the field of electronics, taking part in competitions and projects, gathering hands-on experience. 
 
 
 
-The summer after my sophomore year, I interned under <a href="http://www.aero.iisc.ernet.in/faculty/s-n-omkar"> Dr. S.N. Omkar </a> at the Indian Institute of Science, in the Aerospace lab where I worked on building a gesture controlled quadrotor system. This introduced me to several researchers and began my interest in the resarch life. 
+The summer after my sophomore year, I interned under <a href="http://www.aero.iisc.ernet.in/faculty/s-n-omkar"> Dr. S.N. Omkar </a> at the Indian Institute of Science, Bangalore in the Aerospace lab where I worked on building a gesture controlled quadrotor system. This introduced me to several researchers and began my interest in the resarch life. 
 {% include image.html url="/images/4.jpg" caption="Workshops" width=300 align="right" %}
 {% include image.html url="/images/3.jpg" caption="Simple antennas" width=300 align="right" %}
 
