@@ -21,4 +21,3 @@ An auto-encoder is comprised of an encoder function h\(·\) and a decoder functi
 
 $$\sqrt{x}$$
 
-\\( h\_t = \tanh ( W\_{hh} h\_{t-1} + W\_{xh} x\_t ) \\)
