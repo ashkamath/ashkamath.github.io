@@ -17,7 +17,7 @@ permalink: /photography/
 
 ![UMass](/images/cics2.jpg)
 
-![UMass](/images/cics3.jpg)
+![UMass](/images/cics3.jpeg)
 
 ![UMass](/images/cics4.jpg)
 
