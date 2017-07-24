@@ -17,7 +17,7 @@ In this work we examined two existing methods for unsupervised domain adaptation
 ### Stacked Denoising Autoencoders
 
 #### What is a denoising auto encoder?
-An auto-encoder is comprised of an encoder function h(·) and a decoder function g(·), where typically the dimension of encoder's output is smaller than that of its argument. The "hidden" representation that is obtained after applying the encoder function is usually used as a reduced-dimension version of the input. The reconstruction of the input by the auto-encoder is given by r(x) = g(h(x)). Typically, when training an auto encoder one trains it to minimize a reconstruction error of the form loss(x,r(x)). A de-noising auto encoder refers to a specific case where the input vector x is corrupted into a vector x' using dropout or random gaussian noise and the model is trained to reconstruct x from x'.
+An auto-encoder is comprised of an encoder function \\h(·)\\ and a decoder function g(·), where typically the dimension of encoder's output is smaller than that of its argument. The "hidden" representation that is obtained after applying the encoder function is usually used as a reduced-dimension version of the input. The reconstruction of the input by the auto-encoder is given by r(x) = g(h(x)). Typically, when training an auto encoder one trains it to minimize a reconstruction error of the form loss(x,r(x)). A de-noising auto encoder refers to a specific case where the input vector x is corrupted into a vector x' using dropout or random gaussian noise and the model is trained to reconstruct x from x'.
 
 
 
