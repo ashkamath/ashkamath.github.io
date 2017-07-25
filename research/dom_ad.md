@@ -21,6 +21,8 @@ An auto-encoder is comprised of an encoder function $e(·)$ and a decoder functi
 
 A de-noising auto encoder refers to a specific case where the input vector $x$ is corrupted into a vector $\tilde{x}$ using dropout or random gaussian noise and the model is trained to reconstruct $x$ from $\tilde{x}$.
 
-Glorot et al. [1] proposed an approach using deep learning in which they extract a representation for the training data in an unsupervised manner. They used a two stage pipeline where they first learn a representation of the data and then use a linear classifier for the prediction. The authors empirically determined that the performance was the best when the hidden representation using the auto encoders was built using all the source and target domains for unsupervised pre training as opposed to training on any one domain. In this way, sharing the representations across all domains eradicates the need to repeat this training for a diffeent source to target pair making it easy to scale to larger number of domains.
+Glorot et al. [1] proposed an approach in which they extract a representation for the training data in an unsupervised manner. They used a two stage pipeline where they first learn a representation of the data and then use a linear classifier for the prediction. The authors empirically determined that the performance was the best when the hidden representation using the auto encoders was built using all the source and target domains for unsupervised pre training as opposed to training on any one domain. In this way, sharing the representations across all domains eradicates the need to repeat this training for a diffeent source to target pair making it easy to scale to larger number of domains.
 
 
+
+**In progress**
