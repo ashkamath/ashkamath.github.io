@@ -34,8 +34,8 @@
 - title: "CV"
   href: "/cv/"
 
-- title: "Blog"
-  href: "/blog/"
+#- title: "Blog"
+#  href: "/blog/"
 
 - title: "Photography"
   href: "/photography/"
