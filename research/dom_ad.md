@@ -74,9 +74,11 @@ So we proposed to use the MSDA and CORAL algorithms in conjunction by extracting
 ### Results
 We obtained the following results which showed that our hypothesis was indeed correct and we got improvement in accuracies in all the domains and these results were comparable to the more recent Domain Adversarial Neural Networks approach towards domain adaptation. We however used only 4 layers in the MSDA due to computational restrictions and used a noise factor of 0.8. We wish to try to extend this to 5 layers and better tune the noise factor hyperparameter. 
 
+### Future work
+We wish to see how the classifier fares by using DANNs along with our current framework. 
+
+
 {% include image.html url="/images/results.png" caption="Results" width=600 align="center" %}
 
 
-### Future work
-We wish to see how the classifier fares by using DANNs along with our current framework. 
 
