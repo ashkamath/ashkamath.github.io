@@ -47,6 +47,9 @@ We found that raw BOW features using the whole vocabualry was quite inseparable 
 {% include image.html url="/images/preproc_testbooks.jpg" caption="The same books domain data preprocessed using only 5000 most frequent terms" width=300 align="right" %}
 
 Further, as compared to the image dataset such as OFFICE-10 dataset where these domain adaptation methods work really well, we could see a stark difference in th separability when compared to the sentiment analysis task. So it made sense why these algorithms would work much better on the OFFICE-10 dataset.
+
+{% include image.html url="/images/webcamdatatsne.png" caption="Webcam domain data from OFFICE-10 image dataset" width=300 align="left" %}
+
 In accordance with the numbers listed in the paper, we observed that the CORAL algorithm only works well and gives gains over the no-adaptation case when there is a stark difference in the distributions of the source and target domain distributions as shown in the figures. In the case of Kitchen and Electronics, since the distributions are so similar, it does not make much difference as opposed to Webcam and DSLR where the distributions are evidently different. Further strengthening our analysis was that CORAL gave much better results on the Books-Kitchen shift (where the distributions differ a lot) as opposed to the Kitchen-Electronics shift. 
 We next wanted to observe the effects of the MSDA algorithm on the distributions of the domains and we noticed that it does indeed disentangle the hidden features, increasing the distance between the distributions. 
 
