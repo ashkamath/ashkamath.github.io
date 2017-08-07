@@ -59,7 +59,14 @@ In accordance with the numbers listed in the paper, we observed that the CORAL a
 
 
 In the case of Kitchen and Electronics, since the distributions are so similar, it does not make much difference as opposed to Webcam and DSLR where the distributions are evidently different. Further strengthening our analysis was that CORAL gave much better results on the Books-Kitchen shift (where the distributions differ a lot) as opposed to the Kitchen-Electronics shift. 
+
+{% include image.html url="/images/kitchentoelectronicswithtsne.JPG" caption="PDFs of the Kitchen and Electronics domains" width=400 align="right" %}
+{% include image.html url="/images/bookstokitchenwithtsne.JPG" caption="PDFs of the Books and Kitchen domains" width=400 align="right" %}
+
 We next wanted to observe the effects of the MSDA algorithm on the distributions of the domains and we noticed that it does indeed disentangle the hidden features, increasing the distance between the distributions. 
+
+{% include image.html url="/images/bookskitchenpreproc.jpg" caption="PDFs of the Kitchen and Electronics domains" width=400 align="right" %}
+{% include image.html url="/images/bookskitchenmsda.jpg" caption="PDFs of the Books and Kitchen domains" width=400 align="right" %}
 
 ### Proposal
 So we proposed to use the MSDA and CORAL algorithms in conjunction by extracting the MSDA features and giving that as input to the CORAL algorithm to see if that improves the ability to adapt across domains. We believe that the two algorithms optimize different objectives and hence should be able to complement each other to obtain superior accuracy when used together. This comes from our understanding that mSDA tries to disentangle features in a lower manifold and coral capitalises on the difference in the distributions of the source and target. So if the mSDA manages to give hidden representation features which increase the difference in the distributions of the source and target domains, CORAL will improve the classification further giving better results than either of the two algorithms.
