@@ -6,7 +6,7 @@ permalink: /research/vqa/
 
 ## Abstract 
 
-This project explored several neural network architec- tures for the Visual Question Answering task [1] which in- volved both the language model and the visual model. In particular, we examined the Convolutional Neural Network, the Long-Short Term Memory network and the Gated Re- current Unit for the language model. For the visual model, we fine tuned the last few layers of VGGNet [16] and ResNet [4]. We also compared different late fusion strategies of the two models. The best architecture we came up with was a Bidirectional-LSTM for questions and the VGGNet features for images, combined by concatenation and MLP (overall accuracy 54.48% on full dataset).
+This project explored several neural network architectures for the Visual Question Answering task which involved both the language model and the visual model. In particular, we examined the Convolutional Neural Network, the Long-Short Term Memory network and the Gated Recurrent Unit for the language model. For the visual model, we fine tuned the last few layers of VGGNet and ResNet. We also compared different late fusion strategies of the two models. The best architecture we came up with was a Bidirectional-LSTM for questions and the VGGNet features for images, combined by concatenation and MLP (overall accuracy 54.48% on full dataset).
 
 ## Introduction
 
