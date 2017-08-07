@@ -54,7 +54,7 @@ Further, as compared to the image dataset such as OFFICE-10 dataset where these 
 
 
 In accordance with the numbers listed in the paper, we observed that the CORAL algorithm only works well and gives gains over the no-adaptation case when there is a stark difference in the distributions of the source and target domain distributions as shown in the figures. 
-{% include image.html url="/images/kitchentoelectronicswithtsne.JPG" caption="CDFs of the Kitchen and Electronics domains" width=400 align="right" %}
+{% include image.html url="/images/kitchenelectronics.JPG" caption="CDFs of the Kitchen and Electronics domains" width=400 align="right" %}
 {% include image.html url="/images/webcamdslr.JPG" caption="CDFs of the Webcam and DSLR domains" width=400 align="right" %}
 
 
