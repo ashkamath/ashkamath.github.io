@@ -53,7 +53,12 @@ Further, as compared to the image dataset such as OFFICE-10 dataset where these 
 
 
 
-In accordance with the numbers listed in the paper, we observed that the CORAL algorithm only works well and gives gains over the no-adaptation case when there is a stark difference in the distributions of the source and target domain distributions as shown in the figures. In the case of Kitchen and Electronics, since the distributions are so similar, it does not make much difference as opposed to Webcam and DSLR where the distributions are evidently different. Further strengthening our analysis was that CORAL gave much better results on the Books-Kitchen shift (where the distributions differ a lot) as opposed to the Kitchen-Electronics shift. 
+In accordance with the numbers listed in the paper, we observed that the CORAL algorithm only works well and gives gains over the no-adaptation case when there is a stark difference in the distributions of the source and target domain distributions as shown in the figures. 
+{% include image.html url="/images/kitchentoelectronicswithtsne.JPG" caption="CDFs of the Kitchen and Electronics domains" width=400 align="right" %}
+{% include image.html url="/images/webcamdslr.JPG" caption="CDFs of the Webcam and DSLR domains" width=400 align="right" %}
+
+
+In the case of Kitchen and Electronics, since the distributions are so similar, it does not make much difference as opposed to Webcam and DSLR where the distributions are evidently different. Further strengthening our analysis was that CORAL gave much better results on the Books-Kitchen shift (where the distributions differ a lot) as opposed to the Kitchen-Electronics shift. 
 We next wanted to observe the effects of the MSDA algorithm on the distributions of the domains and we noticed that it does indeed disentangle the hidden features, increasing the distance between the distributions. 
 
 ### Proposal
