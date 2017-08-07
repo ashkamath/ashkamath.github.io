@@ -44,7 +44,7 @@ We performed some data analysis to observe the separability of the data. We used
 We found that raw BOW features using the whole vocabualry was quite inseparable in that state as opposed to the BOW with the reduced frequent term vocabulary. 
 
 {% include image.html url="/images/test_books.png" caption="Books domain data as raw BOW" width=300 align="right" %}
-{% include image.html url="/images/preproc_testbooks.jpg" caption="The same books domain data preprocessed using only 5000 most frequent terms" width=300 align="right" %}
+{% include image.html url="/images/preproc_testbooks.jpg" caption="The same books domain data preprocessed using only 5000 most frequent terms" width=500 align="right" %}
 
 Further, as compared to the image dataset such as OFFICE-10 dataset where these domain adaptation methods work really well, we could see a stark difference in th separability when compared to the sentiment analysis task. So it made sense why these algorithms would work much better on the OFFICE-10 dataset.
 
