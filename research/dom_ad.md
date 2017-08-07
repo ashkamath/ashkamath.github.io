@@ -81,7 +81,11 @@ We wish to see how the classifier fares by using DANNs along with our current fr
 
 ### References
 [1] Chen, Minmin, et al. "Marginalized denoising autoencoders for domain adaptation." arXiv preprint arXiv:1206.4683 (2012).
+
+
 [2] Ajakan, Hana, et al. "Domain-adversarial neural networks." arXiv preprint arXiv:1412.4446 (2014).
+
+
 [3] Glorot, Xavier, Antoine Bordes, and Yoshua Bengio. "Domain adaptation for large-scale sentiment classification: A deep learning approach." Proceedings of the 28th international conference on machine learning (ICML-11). 2011.
 APA	
 
