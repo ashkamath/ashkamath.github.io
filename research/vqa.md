@@ -26,5 +26,5 @@ Finally, we tried different way of fusing information from the language model an
 Long-Short Term Memory Network (LSTM) is a variant of the Recurrent Neural Network (RNN). It was first proposed by Hochreiter and Schmidhuber in 1997 and has been successfully used for multiple applications in the language domain. 
 Unlike the standard RNN, LSTM can not only collect recent information to perform predictions, but also can obtain information about "long-term" dependencies.
 
-Unlike the standard RNN structure which only make prediction by computing a weighted sum of the input signal and applying a non-linear function such as tanh, the LSTM has a more involved structure. For each recurrent unit in LSTM, there are three gates: input gate, forget gate and output gate. For each time step *t*, the *j-th* LSTM cell will maintain a memory cell $$c_{t}^{j}$$, the output value $$h_{t}^{j}$$. The output value is computed as follows:
-$$h_{t}^{j} = o_{t}^{j}tanh(c_{t}^{j})$$
+Unlike the standard RNN structure which only make prediction by computing a weighted sum of the input signal and applying a non-linear function such as tanh, the LSTM has a more involved structure. For each recurrent unit in LSTM, there are three gates: input gate, forget gate and output gate. For each time step *t*, the *j-th* LSTM cell will maintain a memory cell $c_{t}^{j}$, the output value $h_{t}^{j}$. The output value is computed as follows:
+$h_{t}^{j} = o_{t}^{j}tanh(c_{t}^{j})$
