@@ -2,6 +2,7 @@
 layout: page
 title: Visual Question Answering
 permalink: /research/vqa/
+mathjax: true
 ---
 
 ## Abstract 
