@@ -38,3 +38,20 @@ Unlike the standard RNN, LSTM can not only collect recent information to perform
 Unlike the standard RNN structure which only make prediction by computing a weighted sum of the input signal and applying a non-linear function such as tanh, the LSTM has a more involved structure. For each recurrent unit in LSTM, there are three gates: input gate, forget gate and output gate. For each time step *t*, the *j-th* LSTM cell will maintain a memory cell $c_{t}^{j}$, the output value $h_{t}^{j}$. The output value is computed as follows:
 
 $$h_{t}^{j} = o_{t}^{j}tanh(c_{t}^{j})$$
+
+where $o_{t}^{j}$ is the output gate for this single cell at time $t$ at $j$th position, and it is computed using this equation where $\sigma$ is a logistic sigmoid function, and $W_{0}, U_{0}, V_{0}$ weight matrices.
+\begin{equation*}
+o_{t}^{j} = \sigma (W_{0}x_{t}+U_{0}h_{t-1}+V_{0}c_{t})^{j}
+\end{equation*}
+
+The memory cell is also updated at each time step. It's updated using the following equation, where $\tilde{c}_{t}^{j}$ is the new memory cell, and $f_{t}^{j}, i_{t}^{j}$ are the corresponding forget and input gates.
+\begin{equation*}
+\begin{aligned}
+& \tilde{c}_{t}^{j} = tanh(W_{c}x_{t}+U_{c}h_{t-1})^{j} \\
+& f_{t}^{j} = \sigma (W_{f}x_{t}+U_{f}h_{t-1}+V_{f}c_{t-1})^{j} \\
+& i_{t}^{j} = \sigma (W_{i}x_{t}+U_{i}h_{t-1}+V_{i}c_{t-1})^{j} \\
+& c_{t}^{j} = f_{t}^{j}c_{t-1}^{j}+i_{t}^{j}\tilde{c}_{t}^{j} \\
+\end{aligned}
+\end{equation*}
+
+As we can see from above equations, each unit in LSTM decides whether to keep the previous information and to which extent to keep it, at each time step via the gates, i.e input gate, forget gate and output gate. So if LSTM detects some early important information, it will carry that information along with the whole prediction easily. So the long term dependency information can be captured.
