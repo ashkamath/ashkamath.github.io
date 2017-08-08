@@ -46,7 +46,7 @@ We found that raw BOW features using the whole vocabualry was quite inseparable 
 {% include image.html url="/images/test_books.png" caption="Books domain data as raw BOW" width=400 align="right" %}
 {% include image.html url="/images/preproc_testbooks.jpg" caption="The same books domain data preprocessed using only 5000 most frequent terms" width=400 align="right" %}
 
-Further, as compared to the image dataset such as OFFICE-10 dataset where these domain adaptation methods work really well, we could see a stark difference in th separability when compared to the sentiment analysis task. So it made sense why these algorithms would work much better on the OFFICE-10 dataset.
+Further, as compared to the image dataset such as OFFICE-10 dataset where these domain adaptation methods work really well, we could see a stark difference in the separability when compared to the sentiment analysis task. So it made sense why these algorithms would work much better on the OFFICE-10 dataset.
 
 {% include image.html url="/images/webcamdatatsne.png" caption="Webcam domain data from OFFICE-10 image dataset" width=500 align="right" %}
 
