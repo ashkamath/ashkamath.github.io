@@ -43,7 +43,7 @@ where $o_{t}^{j}$ is the output gate for this single cell at time $t$ at $j$th p
 
 $$o_{t}^{j} = \sigma (W_{0}x_{t}+U_{0}h_{t-1}+V_{0}c_{t})^{j}$$
 
-The memory cell is also updated at each time step. It's updated using the following equation, where $ \tilde{c}_{t}^{j} $ is the new memory cell, and $f_{t}^{j}, i_{t}^{j}$ are the corresponding forget and input gates.
+The memory cell is also updated at each time step. It's updated using the following equation, where $\tilde{c}^{j}$ is the new memory cell, and $f_{t}^{j}, i_{t}^{j}$ are the corresponding forget and input gates.
 
 $$ \tilde{c}_{t}^{j} = tanh(W_{c}x_{t}+U_{c}h_{t-1})^{j}$$
 
