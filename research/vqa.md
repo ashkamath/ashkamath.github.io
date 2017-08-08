@@ -67,8 +67,11 @@ Instead having forget and input gates, The GRU has a single "update gate" to rep
 Same as LSTM, the output value from network is computed by the following:
 
 $$r_{t}^{j} = \sigma (W_{r}x_{t} + U_{t}h_{t-1})^{j}$$
+
 $$\tilde{h_{t}^{j}} = tanh(Wx_{t}+U(r_{t}\odot h_{t-1} ))^{j}$$
+
 $$z_{t}^{j} = \sigma (W_{z}x_{t}+U_{z}h_{t-1})^{j}$$
+
 $$h_{t}^{j} = (1-z_{t}^{j})h_{t-1}^{j}+z_{t}^{j}\tilde{h}_{t}^{j})$$ 
 
 As the above equation stated, the parameter $r_{t}^{j}$ is the reset gate and $\odot$ is element-wise multiplication. When $r_{t}^{j}$ is closer to 0, the reset gate effectively makes the unit act as if it is starting over, allowing it to forget all the previous information. And the parameter $z_{t}^{j}$ is the update gate, decides how much the unit updates its output. The candidate output value $\tilde{h_{t}^{j}}$ is computed as above too. Eventually, we get the representation for $h_{t}^{j}$.
