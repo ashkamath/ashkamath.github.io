@@ -43,7 +43,7 @@ where $o_{t}^{j}$ is the output gate for this single cell at time $t$ at $j$th p
 
 $$o_{t}^{j} = \sigma (W_{0}x_{t}+U_{0}h_{t-1}+V_{0}c_{t})^{j}$$
 
-The memory cell is also updated at each time step. It's updated using the following equation, where $\tilde{c}^{j}$ is the new memory cell, and $f_{t}^{j}, i_{t}^{j}$ are the corresponding forget and input gates.
+The memory cell is also updated at each time step. It's updated using the following equation, where $\tilde{c}_{t}^{j}$ is the new memory cell, and $f_{t}^{j}, i_{t}^{j}$ are the corresponding forget and input gates.
 
 $$ \tilde{c}_{t}^{j} = tanh(W_{c}x_{t}+U_{c}h_{t-1})^{j}$$
 
@@ -53,4 +53,4 @@ $$i_{t}^{j} = \sigma (W_{i}x_{t}+U_{i}h_{t-1}+V_{i}c_{t-1})^{j} $$
 
 $$c_{t}^{j} = f_{t}^{j}c_{t-1}^{j}+i_{t}^{j}\tilde{c}_{t}^{j}$$
 
-As we can see from above equations, each unit in LSTM decides whether to keep the previous information and to which extent to keep it, at each time step via the gates, i.e input gate, forget gate and output gate. So if LSTM detects some early important information, it will carry that information along with the whole prediction easily. So the long term dependency information can be captured.
+As we can see from the above equations, each unit in LSTM decides whether to keep the previous information and to which extent to keep it, at each time step via the gates, i.e input gate, forget gate and output gate. So if LSTM detects some early important information, it will carry that information along with the whole prediction easily. So the long term dependency information can be captured.
