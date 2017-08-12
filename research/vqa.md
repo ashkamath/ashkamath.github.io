@@ -77,3 +77,5 @@ $$h_{t}^{j} = (1-z_{t}^{j})h_{t-1}^{j}+z_{t}^{j}\tilde{h}_{t}^{j})$$
 As the above equation stated, the parameter $r_{t}^{j}$ is the reset gate and $\odot$ is element-wise multiplication. When $r_{t}^{j}$ is closer to 0, the reset gate effectively makes the unit act as if it is starting over, allowing it to forget all the previous information. And the parameter $z_{t}^{j}$ is the update gate, decides how much the unit updates its output. The candidate output value $\tilde{h_{t}^{j}}$ is computed as above too. Eventually, we get the representation for $h_{t}^{j}$.
 
 {% include image.html url="/images/gru.jpeg" caption="Figure 3. Graphical representation of LSTM and GRU" width=500 align="center" %}
+
+**in progress..**
