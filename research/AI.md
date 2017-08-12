@@ -1,7 +1,7 @@
 ---
 layout: page
-title: AI 
-permalink: /research/AI/
+title: Rooftop extraction 
+permalink: /research/rooftop/
 ---
 
 
