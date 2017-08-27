@@ -78,4 +78,41 @@ As the above equation stated, the parameter $r_{t}^{j}$ is the reset gate and $\
 
 {% include image.html url="/images/gru.jpeg" caption="Figure 3. Graphical representation of LSTM and GRU" width=500 align="center" %}
 
+## Our pipelines more specifically :
+
+### Visual representations
+Ths part provides the features from the images. We experimented with four representations.
+**V** The activations from the last hidden layer of VGGNet were used as 4096-dimensional image representation.  
+**R** For ResNet, we took the pre-trained network, using representations from the last hidden layer then fine tuned it. Since the ResNet features were $4 \times$ larger than VGGNet, we added a Convolution layer with depth 512 and filter size of 3 to avoid memory overflows. We also added three fully-connected layers to form a final 4096-dimensional image representation.
+**DV** Inspired by the idea of the front-end model in **Cite dilation paper** , we used the features from VGGNet as input to a 8-layered dilated convolutional neural network. The last hidden layer representation were used as the 4116-dimension image representation.
+**DR** Same as DV, with VGGNet features replaced with ResNet features.
+
+### Language representations
+This part provides a representation for the question. We experiment with several representations. For completeness, we also included the Bag-of-Words representation since the baseline model uses it.
+**Bag-of-Words Question (BoW Q):** This BoW representation took the top 1,000 words in the questions vocabulary to create a bag-of-words representation. It also create a 30-dim bag-of-words representation of the top 10 first, second, and third words in the questions as they contain important information such as question type. These representations are concatenated to create a final 1,030-dim embedding for the question.
+**LSTM Q:** An LSTM with one hidden layer is used to obtain 512-dim embedding for the question. The embedding obtained from the LSTM is the last hidden state representations of the LSTM. Each question word is encoded with 300-dim embedding from a pre-trained word2vec embedding which is then fed to the LSTM.
+**Bi-LSTM Q:** Similar to LSTM Q with a Bidirectional-LSTM in place of the LSTM. Because of its structure, the last state of the LSTM tends to agree more with the most recent input into it. In order to efficiently encoded the information from both past and future, we used the Bidirectional-LSTM.
+**GRU Q:** This model is simpler than LSTM model and has been found to surpass the LSTM in some cases, so we experimented with this structure too.
+**CNN Q:** Inspired by Kim Yoon's work, using CNN for sentence classification **\cite{kim2014convolutional}**, we wished to try CNN with question as well. The input layer is composed with a sequence of size s of word embeddings of size $$d$$. So the input feature map is a $$d * s$$ feature map. Convolution layer is mainly designed for n-gram sliding. Three layers with various values of $$n$$ were used for the convolution. Here, the filter is a $$d * n$$ matrix, where n is the filter width and also the window size. After the convolution layers, there will be a standard max-pooling layer, which we used as the CNN representation for the questions.
+
+### Late fusion 
+We examine different ways to merge the image and question embeddings to obtain a single embedding.
+**Fuse C:** In this method we directly concatenate the two embeddings and then perform softmax classification.
+**Fuse C + MLP:** The image and the question embeddings are first transformed to match dimensions i.e., 512, 1024-dimensions by a fully-connected layer + tanh non-linearity. This is then concatenated and passed to a Multi-layer Perceptron (MLP) - a fully connected neural network classifier with 2 hidden layers of 1024-dim + tanh/relu non-linearity and a softmax layer to compute the distribution over K answers.
+**Fuse B + MLP:** The embeddings from two models are passed through several fully-connected layer + Relu non-linearity to learn bi-linear embeddings. Then, we take the outer product of the two embeddings and compute the final softmax classifier.
+
+The entire model is then learned end-to-end with a cross-entropy loss. The pre-trained weights of the image channel are frozen except for the layers being fine tuned.
+
+## Experiments
+
+### Dataset
+In this work, we evaluated our proposed models on the VQA dataset **\cite{vqa}**. In particular, the training set contained 215,375 question answer pairs and 82,460 images. While the testing set contained 121,512 question answer pairs and 40,504 images. The questions covered several sub-categories including yes/no, open-ended, number, and other. These questions require an understanding of vision, language and commonsense knowledge to answer. For each question, we had 10 corresponding free-form answer. We use the top 1000 most frequent answers as the possible outputs which spanned 86.54% of the training answers. We used the standard evaluation metrics and compare with the existing models. However, we did not use the VQA evaluating server and instead evaluated locally.
+
+### Setup
+All of our models were implemented using Keras with a Tensorflow backend to fully utilize multiple GPUs.
+In all of our experiments, we used Adadelta \cite{adadelta} optimizer with careful chosen set of hyper-parameters for each proposed neural architecture. 
+
+## Results
+The overall results of the proposed models are shown in Table 1. We also compared our models with the baseline model in **\cite{vqa}** and the current state of the art work in **\cite{hiecoatt}**. All of our models were first sanity checked by over-fitting a small dataset and then trained on a small data set of roughly 10\% of the training data. We presented the details of tuning the hyper-parameters with relevant results for each model.
+
 **in progress..**
