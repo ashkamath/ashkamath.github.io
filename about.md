@@ -4,9 +4,13 @@ title: About
 permalink: /about/
 ---
 
-### Currently ...
+### Currently..
+Working towards finishing my Masters in Computer Science at UMass Amherst.
 
-Currently, I am working at Oracle Labs, Burlington in the Machine Learning Research group, under <a href="https://labs.oracle.com/pls/apex/f?p=labs:bio:0:2069"> Michael Wick </a> and <a href="https://labs.oracle.com/pls/apex/f?p=labs:bio:0:304"> Jean-Baptiste Tristan </a> on a digital cervicography project. I am a strong believer in using the knowlegde and tools that we have to address real life issues and working on this project definitely gives me a lot of satisfaction in that respect!
+
+### Last summer
+
+I worked at Oracle Labs, Burlington in the Machine Learning Research group, under <a href="https://labs.oracle.com/pls/apex/f?p=labs:bio:0:2069"> Michael Wick </a> and <a href="https://labs.oracle.com/pls/apex/f?p=labs:bio:0:304"> Jean-Baptiste Tristan </a> on a digital cervicography project. 
 
 ## Professional Timeline
 
