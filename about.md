@@ -15,13 +15,13 @@ My undergraduate degree was in Electronics and Communication at Manipal Institut
 
 
 
-The summer after my sophomore year, I interned under <a href="http://www.aero.iisc.ernet.in/faculty/s-n-omkar"> Dr. S.N. Omkar </a> at the Indian Institute of Science, Bangalore in the Aerospace lab where I worked on building a gesture controlled quadrotor system. This introduced me to several researchers and began my interest in the research life. 
+The summer after my sophomore year, I interned at the Indian Institute of Science, Bangalore in the Aerospace lab where I worked on building a gesture controlled quadrotor system. This introduced me to several researchers and began my interest in the research life. 
 {% include image.html url="/images/4.jpg" caption="Workshops" width=300 align="right" %}
 {% include image.html url="/images/3.jpg" caption="Simple antennas" width=300 align="right" %}
 
 
 
-In my junior year, a friend and me won an award for a face recognition system that we built for a university wide competition and that ignited my interest in the field of machine learning. I followed that with another internship in the same lab, and worked on extracting rooftop areas from satellite images so as to calculate the solar power potential from the region. This was still done using traditional computer vision approaches and thinking back, would have been so much easier with the common deep learning tools at our disposal now. 
+In my junior year, a friend and I won an award for a face recognition system that we built for a university wide competition and that ignited my interest in the field of machine learning. I followed that with another internship in the same lab, and worked on extracting rooftop areas from satellite images so as to calculate the solar power potential from the region. This was still done using traditional computer vision approaches and thinking back, would have been so much easier with the common deep learning tools at our disposal now. 
 
 {% include image.html url="/images/iisc.jpeg" caption="Aerospace lab, IISc Bangalore" width=300 align="left" %}
 
