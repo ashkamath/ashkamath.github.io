@@ -5,19 +5,21 @@
 #- title: "Research"
 #  href: "/research/"
 
-- title: "Research"
-  href: "/research/"
+-title: "Survey on Semantic Parsing"
+  href: "/litreview/"
+
+
+- title: "Projects"
+  href: "/projects/"
   subcategories:
     - subtitle: "Domain adaptation for sentiment analysis"
-      subhref: "/research/Dom_ad/"
+      subhref: "/projects/Dom_ad/"
     - subtitle: "Visual Question Answering"
-      subhref: "/research/vqa/"
+      subhref: "/projects/vqa/"
     - subtitle: "Structured Prediction"
-      subhref: "/research/SPEN/"
-    - subtitle: "Anomaly Detection"
-      subhref: "/research/anomaly/"
-    - subtitle: "Rooftop extraction"
-      subhref: "/research/rooftop/"
+      subhref: "/projects/SPEN/"
+    - subtitle: "Multitask learning for biomedical NER"
+      subhref: "/projects/bioner/"
 
 #- title: "Resources"
 #  href: "/resources/"
