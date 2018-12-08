@@ -20,6 +20,8 @@
       subhref: "/projects/SPEN/"
     - subtitle: "Multitask learning for biomedical NER"
       subhref: "/projects/bioner/"
+    - subtitle: "Survey on Semantic Parsing"
+      subhref: "/projects/survey/"
 
 #- title: "Resources"
 #  href: "/resources/"
