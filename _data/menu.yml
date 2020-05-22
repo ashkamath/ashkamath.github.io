@@ -9,19 +9,19 @@
 #  href: "/survey/"
 
 
-- title: "Projects"
-  href: "/projects/"
-  subcategories:
-    - subtitle: "Domain adaptation for sentiment analysis"
-      subhref: "/projects/Dom_ad/"
+#- title: "Projects"
+#  href: "/projects/"
+#  subcategories:
+#    - subtitle: "Domain adaptation for sentiment analysis"
+#      subhref: "/projects/Dom_ad/"
 #     - subtitle: "Visual Question Answering"
 #       subhref: "/projects/vqa/"
-    - subtitle: "Structured Prediction"
-      subhref: "/projects/SPEN/"
-    - subtitle: "Multitask learning for biomedical NER"
-      subhref: "/projects/bioner/"
-    - subtitle: "Survey on Semantic Parsing"
-      subhref: "/projects/survey/"
+#    - subtitle: "Structured Prediction"
+#      subhref: "/projects/SPEN/"
+#    - subtitle: "Multitask learning for biomedical NER"
+#      subhref: "/projects/bioner/"
+#    - subtitle: "Survey on Semantic Parsing"
+#      subhref: "/projects/survey/"
 
 #- title: "Resources"
 #  href: "/resources/"
