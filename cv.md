@@ -8,4 +8,4 @@ To get this link, upload to dropbox and then open the file on the dropbox websit
 -->
 I embed a current version of my CV below. You can also [download the PDF here](https://drive.google.com/file/d/1mjxnE8VtUoGTnMO__RS0f5jBAls8kPUE/view?usp=sharing).
 
-<iframe src="https://drive.google.com/file/d/1mjxnE8VtUoGTnMO__RS0f5jBAls8kPUE/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1mjxnE8VtUoGTnMO__RS0f5jBAls8kPUE/preview" width="100" height="800"></iframe>
